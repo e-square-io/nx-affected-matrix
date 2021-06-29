@@ -1,6 +1,6 @@
 {
   "name": "@e-square/nx-affected-matrix",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/e-square-io/nx-github-actions.git"
