@@ -66733,14 +66733,11 @@ function main() {
             targets: (0,core.getInput)('targets', { required: true })
                 .split(',')
                 .filter((target) => target.length > 0),
-            maxParallel: isNaN(parseInt((0,core.getInput)('maxParallel')))
-                ? 3
-                : parseInt((0,core.getInput)('maxParallel')),
+            maxParallel: isNaN(parseInt((0,core.getInput)('maxParallel'))) ? 3 : parseInt((0,core.getInput)('maxParallel')),
             workingDirectory: (0,core.getInput)('workingDirectory'),
             args: (0,core.getInput)('args')
                 .split(' ')
                 .filter((arg) => arg.length > 0),
-            nxCloud: (0,core.getInput)('nxCloud') === 'true',
         };
         if (inputs.workingDirectory && inputs.workingDirectory.length > 0) {
             (0,core.info)(`🏃 Working in custom directory: ${inputs.workingDirectory}`);
