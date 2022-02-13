@@ -1,9 +1,13 @@
 {
   "name": "@e-square/nx-affected-matrix",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/e-square-io/nx-github-actions.git"
+    "url": "git+https://github.com/e-square-io/nx-github-actions.git",
+    "directory": "packages/nx-affected-matrix"
+  },
+  "bugs": {
+    "url": "https://github.com/e-square-io/nx-github-actions/issues"
   },
   "dependencies": {
     "@actions/cache": "^1.0.8",
@@ -15,5 +19,5 @@
     "@actions/io": "^1.1.1",
     "which": "^2.0.2"
   },
-  "main": "./index.js"
+  "main": "main.js"
 }
