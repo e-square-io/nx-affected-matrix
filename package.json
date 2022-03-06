@@ -10,6 +10,9 @@
     "url": "https://github.com/e-square-io/nx-github-actions/issues"
   },
   "dependencies": {
+    "@nrwl/tao": "13.8.4",
+    "@nrwl/workspace": "13.8.4",
+    "@nrwl/devkit": "13.8.4",
     "@actions/artifact": "^0.6.1",
     "@actions/cache": "^1.0.8"
   },
